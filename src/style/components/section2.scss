@@ -1,0 +1,126 @@
+#root > section.two {
+  grid-column: 2;
+  grid-row: 3;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 612px;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+  }
+
+  & > img.banner {
+    grid-column: 1;
+    grid-row: 1;
+    margin-top: 130px;
+    height: 600px;
+    justify-self: stretch;
+    object-fit: cover;
+
+    @media (max-width: 768px) {
+      margin-top: 62px;
+      height: auto;
+      width: 343px;
+    }
+  }
+
+  & > .content {
+    grid-column: 2;
+    grid-row: 1;
+    margin-inline-start: 77px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+
+    @media (max-width: 768px) {
+      grid-column: 1;
+      grid-row: 2;
+      margin-inline-start: 0;
+      margin-top: 36px;
+      margin-bottom: 40px;
+    }
+
+    & > .title {
+      margin-top: 156px;
+      height: 53px;
+      line-height: 53px;
+      font-weight: 500;
+      font-size: 48px;
+      color: #1D1D1E;
+
+      @media (max-width: 768px) {
+        margin-top: 0;
+        line-height: 37px;
+        font-size: 34px;
+      }
+    }
+
+    & > .divider {
+      height: 1px;
+      background: #E6E6ED;
+
+      @media (max-width: 768px) {
+        &.one {
+          margin-top: 34px;
+        }
+
+        &.two {
+          margin-top: 44px;
+        }
+
+        &.three {
+          margin-top: 44px;
+        }
+
+        &.four {
+          margin-top: 42px;
+        }
+      }
+
+      &.one {
+        margin-top: 61px;
+      }
+
+      &.two {
+        margin-top: 65px;
+      }
+
+      &.three {
+        margin-top: 57px;
+      }
+
+      &.four {
+        margin-top: 49px;
+      }
+    }
+
+    & > .row {
+      line-height: 31px;
+      font-size: 24px;
+      font-weight: 500;
+      color: #1D1D1E;
+
+      @media (max-width: 768px) {
+        line-height: 26px;
+        font-size: 20px;
+      }
+
+      &.one {
+        margin-top: 24px;
+      }
+
+      &.two {
+        margin-top: 23px;
+      }
+
+      &.three {
+        margin-top: 24px;
+      }
+
+      &.four {
+        margin-top: 24px;
+      }
+    }
+  }
+}

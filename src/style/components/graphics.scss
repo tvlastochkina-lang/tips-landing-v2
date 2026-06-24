@@ -1,0 +1,79 @@
+.graphics {
+  &.container {
+    display: inline-block;
+    position: relative;
+
+    & > .content {
+      position: relative;
+      z-index: 100;
+    }
+
+    & > svg {
+      position: absolute;
+      z-index: 99;
+
+      &.one {
+        left: 0;
+        bottom: -8px;
+        width: 139px;
+        height: 13px;
+      }
+
+      &.two {
+        left: 0;
+        bottom: -8px;
+        width: 93px;
+        height: 10px;
+      }
+
+      &.three {
+        left: 0;
+        bottom: -4px;
+        width: 43px;
+        height: 7px;
+      }
+
+      &.four {
+        left: 0;
+        bottom: -12px;
+        width: 142px;
+        height: 13px;
+      }
+
+      &.five {
+        left: 0;
+        bottom: -8px;
+        width: 226px;
+        height: 11px;
+      }
+
+      &.six {
+        top: -14px;
+        left: -16px;
+        width: 78px;
+        height: 58px;
+      }
+
+      &.seven {
+        top: -13px;
+        left: -19px;
+        width: 170px;
+        height: 84px;
+      }
+
+      &.eight {
+        top: -4px;
+        left: -3px;
+        width: 54px;
+        height: 15px;
+      }
+
+      &.nine {
+        top: -13px;
+        left: 5px;
+        width: 60px;
+        height: 21px;
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+#root {
+  //width: 100vw;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1200px 1fr;
+  grid-template-rows: 80px auto auto auto auto auto auto auto auto;
+  background: #ffffff;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 16px 1fr 16px;
+    grid-template-rows: 84px auto auto auto auto auto auto auto auto;
+  }
+
+  & > .grey-back {
+    background: #F8F8FA;
+    align-self: stretch;
+    justify-self: stretch;
+    grid-column: 1 / 4;
+    grid-row: 1 / 3;
+  }
+}

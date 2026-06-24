@@ -1,0 +1,134 @@
+{
+  "header": {
+    "logo": "ForTip",
+    "menu": {
+      "about": "About Service",
+      "how_it_works": "How It Work",
+      "partners": "Partners",
+      "contacts": "Contacts"
+    },
+    "login": "Login"
+  },
+  "sections": {
+    "section1": {
+      "title": {
+        "start": "Get more",
+        "line": "Tips",
+        "end": "<br/>online"
+      },
+      "details": "Service for cachless tip by using QR-code",
+      "button": "Try it for free",
+      "benefits": [
+        {"id": 0, "icon": "/icons/diamond.svg", "text": "Free"},
+        {"id": 1, "icon": "/icons/shield.svg", "text": "Safe"},
+        {"id": 2, "icon": "/icons/five.svg", "text": "Easy"},
+        {"id": 3, "icon": "/icons/wallet.svg", "text": "Profitable"}
+      ],
+      "banner": {
+        "url": "/images/banner_1.png",
+        "alt": "section one banner"
+      }
+    },
+    "section2": {
+      "banner": {
+        "url": "/images/banner_2.png",
+        "alt": "section two banner"
+      },
+      "title": "Who should to use",
+      "advices": {
+        "one": {
+          "start": "",
+          "ellipse": "81 %",
+          "end": "of clients can’t find a cash for tip"
+        },
+        "two": {
+          "start": "All service employees get more",
+          "line": "revenue",
+          "end": ""
+        },
+        "three": {
+          "start": "All companies",
+          "arrow": "up level",
+          "end": "of service and get more clients"
+        },
+        "four": {
+          "start_line": "Our platform is",
+          "line": "free",
+          "mid": "and",
+          "arc": "easy",
+          "end_arc": "for using"
+        }
+      }
+    },
+    "section3": {
+      "title": {
+        "start": "For",
+        "line": "Whom",
+        "end": ""
+      },
+      "clients": {
+        "bars": {
+          "img": {"url": "/images/bars.svg", "alt": "bars and restaurants"}, "text": "Bars and<br />Restaurants"
+        },
+        "hotels": {
+          "img": {"url": "/images/hotels.svg", "alt": "hotels"}, "text": "Hotels"
+        },
+        "delivery": {
+          "img": {"url": "/images/delivery.svg", "alt": "delivery"}, "text": "Delivery<br/>Srvices"
+        },
+        "beauty": {
+          "img": {"url": "/images/beauty.svg", "alt": "beauty salons"}, "text": "Beauty Salons"
+        }
+      }
+    },
+    "section4": {
+      "title": {
+        "start": "How it",
+        "ellipse": "works",
+        "end": ""
+      },
+      "points": [
+        {"id": "0", "banner": {"url": "/images/banner_3.png", "alt": "point one bunner"}, "text": "QR code can be printed on acard/ sticker/table-tent or on abill. We help to make design or integrate to system for every client"},
+        {"id": "1", "banner": {"url": "/images/banner_4.png", "alt": "point two bunner"}, "text": "Customer easily scans QR code by smartphone. No need to download an application"},
+        {"id": "2", "banner": {"url": "/images/banner_5.png", "alt": "point three bunner"}, "text": "Our QR code leads toa wedpage, that allows to choose a tip amountand leave a feedback."},
+        {"id": "3", "banner": {"url": "/images/banner_6.png", "alt": "point four bunner"}, "text": "You can see all the information about tips and get money to the card from personal account"}
+      ]
+    },
+    "section5": {
+      "title": {
+        "start": "These",
+        "line": "companies",
+        "end": "are already<br />working with us"
+      },
+      "clients": [
+        {"id": "", "img": {"url": "/images/client_1.png", "alt": "murver"}},
+        {"id": "", "img": {"url": "/images/client_2.png", "alt": "deliveroo"}},
+        {"id": "", "img": {"url": "/images/client_3.png", "alt": "delivereasy"}},
+        {"id": "", "img": {"url": "/images/client_4.png", "alt": "planta"}}
+      ]
+    },
+    "section6": {
+      "title": "Frequently <br />asked questions",
+      "questions": [
+        {"id": 0, "title": "Why QR codes?", "text": "QR code can be printed on acard/sticker/table-tent or on abill. We help to make design or integrate to system for every client"},
+        {"id": 1, "title": "What is the price?", "text": "QR code can be printed on acard/sticker/table-tent or on abill. We help to make design or integrate to system for every client"},
+        {"id": 2, "title": "What do i need to etart using ForTip? ", "text": "QR code can be printed on acard/sticker/table-tent or on abill. We help to make design or integrate to system for every client"},
+        {"id": 3, "title": "How long dose the onboarding process take?", "text": "QR code can be printed on acard/sticker/table-tent or on abill. We help to make design or integrate to system for every client"},
+        {"id": 4, "title": "How will my employees know that they have received tip?", "text": "QR code can be printed on acard/sticker/table-tent or on abill. We help to make design or integrate to system for every client"},
+        {"id": 5, "title": "How can i promote my virtual tip jar?", "text": "QR code can be printed on acard/sticker/table-tent or on abill. We help to make design or integrate to system for every client"}
+      ]
+    },
+    "section7": {
+      "title": "Improve your business<br />and motivate your<br />team.",
+      "banner": {"url": "/images/banner_7.png", "alt": "section 7 banner"},
+      "banner_mob": {"url": "/images/banner_7_mob.svg", "alt": "section 7 banner"},
+      "button": "Try it for free"
+    }
+  },
+  "footer": {
+    "title": "ForTip",
+    "email": "admin@for-tip.com",
+    "admin": "Administration personal account",
+    "copyright": "Copyright 2023 fortip"
+  }
+}

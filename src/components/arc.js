@@ -1,0 +1,18 @@
+'use client'
+
+import {useRef, useEffect} from 'react'
+
+import {useCoeff} from 'lib/coeff'
+
+export const Arc = ({children}) => {
+  const {container_ref, coeff} = useCoeff(54)
+
+  return (
+    <span className="graphics container" ref={container_ref}>
+      <span className="content">{children}</span>
+      <svg className="eight" transform={`scale(${coeff} 1)`} transform-origin="left" width="54" height="15" viewBox="0 0 54 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M52.6375 13.9121C50 9.91211 45.8152 6.7803 39.5 4.41211C31.5 1.41211 23.0459 1.98379 16.5 3.41211C9.95407 4.84043 4.5 8.41211 2.01562 12.9598" stroke="#FD693A" stroke-width="2.5"/>
+      </svg>
+    </span>
+  )
+}

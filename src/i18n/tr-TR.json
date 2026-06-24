@@ -1,0 +1,134 @@
+{
+  "header": {
+    "logo": "ForTip",
+    "menu": {
+      "about": "Hizmet Hakkında",
+      "how_it_works": "Nasıl çalışır",
+      "partners": "Ortaklar",
+      "contacts": "Kişiler"
+    },
+    "login": "Giriş yapmak"
+  },
+  "sections": {
+    "section1": {
+      "title": {
+        "start": "Daha fazla al",
+        "line": "İpuçları",
+        "end": "<br/>çevrimiçi"
+      },
+      "details": "QR kodunu kullanarak önbelleksiz bahşiş hizmeti",
+      "button": "Bedavaya deneyin",
+      "benefits": [
+        {"id": 0, "icon": "/icons/diamond.svg", "text": "Özgür"},
+        {"id": 1, "icon": "/icons/shield.svg", "text": "Güvenli"},
+        {"id": 2, "icon": "/icons/five.svg", "text": "Kolay"},
+        {"id": 3, "icon": "/icons/wallet.svg", "text": "karlı"}
+      ],
+      "banner": {
+        "url": "/images/banner_1.png",
+        "alt": "birinci bölüm banner'ı"
+      }
+    },
+    "section2": {
+      "banner": {
+        "url": "/images/banner_2.png",
+        "alt": "ikinci bölüm banner'ı"
+      },
+      "title": "Kimler kullanmalı?",
+      "advices": {
+        "one": {
+          "start": "",
+          "ellipse": "81 %",
+          "end": "Bahşiş karşılığında nakit para bulamayan müşterilerin oranı"
+        },
+        "two": {
+          "start": "Tüm servis çalışanları daha fazlasını alıyor",
+          "line": "hasılat",
+          "end": ""
+        },
+        "three": {
+          "start": "Tüm şirketler",
+          "arrow": "üst seviye",
+          "end": "hizmet ver ve daha fazla müşteri kazan"
+        },
+        "four": {
+          "start_line": "Bizim platformumuz",
+          "line": "özgür",
+          "mid": "Ve",
+          "arc": "kolay",
+          "end_arc": "kullanmak için"
+        }
+      }
+    },
+    "section3": {
+      "title": {
+        "start": "İçin",
+        "line": "Kime",
+        "end": ""
+      },
+      "clients": {
+        "bars": {
+          "img": {"url": "/images/bars.svg", "alt": "barlar ve restoranlar"}, "text": "Barlar ve<br />Restoranlar"
+        },
+        "hotels": {
+          "img": {"url": "/images/hotels.svg", "alt": "oteller"}, "text": "Oteller"
+        },
+        "delivery": {
+          "img": {"url": "/images/delivery.svg", "alt": "teslimat"}, "text": "Teslimat<br/>Hizmetler"
+        },
+        "beauty": {
+          "img": {"url": "/images/beauty.svg", "alt": "güzellik salonları"}, "text": "Güzellik Salonları"
+        }
+      }
+    },
+    "section4": {
+      "title": {
+        "start": "Nasıl",
+        "ellipse": "İşler",
+        "end": ""
+      },
+      "points": [
+        {"id": "0", "banner": {"url": "/images/banner_3.png", "alt": "point one bunner"}, "text": "QR kodu karta/ çıkartmaya/masa çadırına veya faturanın üzerine basılabilir. Her müşteri için tasarım yapılmasına veya sisteme entegre edilmesine yardımcı oluyoruz"},
+        {"id": "1", "banner": {"url": "/images/banner_4.png", "alt": "point two bunner"}, "text": "Müşteri QR kodunu akıllı telefonla kolayca tarar. Uygulama indirmenize gerek yok"},
+        {"id": "2", "banner": {"url": "/images/banner_5.png", "alt": "point three bunner"}, "text": "QR kodumuz, bahşiş miktarını seçmenize ve geri bildirim bırakmanıza olanak tanıyan bir web sayfasına yönlendirir."},
+        {"id": "3", "banner": {"url": "/images/banner_6.png", "alt": "point four bunner"}, "text": "Kişisel hesabınızdan ipuçlarıyla ilgili tüm bilgileri görebilir ve kartınıza para aktarabilirsiniz."}
+      ]
+    },
+    "section5": {
+      "title": {
+        "start": "Bunlar",
+        "line": "şirketler",
+        "end": "zaten<br />bizimle çalışıyorlar"
+      },
+      "clients": [
+        {"id": "", "img": {"url": "/images/client_1.png", "alt": "murver"}},
+        {"id": "", "img": {"url": "/images/client_2.png", "alt": "deliveroo"}},
+        {"id": "", "img": {"url": "/images/client_3.png", "alt": "delivereasy"}},
+        {"id": "", "img": {"url": "/images/client_4.png", "alt": "planta"}}
+      ]
+    },
+    "section6": {
+      "title": "Sık<br />sorulan sorular",
+      "questions": [
+        {"id": 0, "title": "Neden QR kodları?", "text": "QR kodu kart/etiket/masa çadırı veya fatura üzerine basılabilir. Her müşteri için tasarım yapılmasına veya sisteme entegre edilmesine yardımcı oluyoruz"},
+        {"id": 1, "title": "Fiyatı nedir?", "text": "QR kodu kart/etiket/masa çadırı veya fatura üzerine basılabilir. Her müşteri için tasarım yapılmasına veya sisteme entegre edilmesine yardımcı oluyoruz"},
+        {"id": 2, "title": "ForTip'i kullanmaya başlamak için neye ihtiyacım var?", "text": "QR kodu kart/etiket/masa çadırı veya fatura üzerine basılabilir. Her müşteri için tasarım yapılmasına veya sisteme entegre edilmesine yardımcı oluyoruz"},
+        {"id": 3, "title": "Katılım süreci ne kadar sürüyor?", "text": "QR kodu kart/etiket/masa çadırı veya fatura üzerine basılabilir. Her müşteri için tasarım yapılmasına veya sisteme entegre edilmesine yardımcı oluyoruz"},
+        {"id": 4, "title": "Çalışanlarım bahşiş aldıklarını nasıl bilecek?", "text": "QR kodu kart/etiket/masa çadırı veya fatura üzerine basılabilir. Her müşteri için tasarım yapılmasına veya sisteme entegre edilmesine yardımcı oluyoruz"},
+        {"id": 5, "title": "Sanal bahşiş kavanozumu nasıl tanıtabilirim?", "text": "QR kodu kart/etiket/masa çadırı veya fatura üzerine basılabilir. Her müşteri için tasarım yapılmasına veya sisteme entegre edilmesine yardımcı oluyoruz"}
+      ]
+    },
+    "section7": {
+      "title": "İşinizi geliştirin<br />ve ekibinizi motive<br />edin.",
+      "banner": {"url": "/images/banner_7.png", "alt": "section 7 banner"},
+      "banner_mob": {"url": "/images/banner_7_mob.svg", "alt": "section 7 banner"},
+      "button": "Bedavaya deneyin"
+    }
+  },
+  "footer": {
+    "title": "ForTip",
+    "email": "admin@for-tip.com",
+    "admin": "Yönetim kişisel hesabı",
+    "copyright": "Copyright 2023 fortip"
+  }
+}
