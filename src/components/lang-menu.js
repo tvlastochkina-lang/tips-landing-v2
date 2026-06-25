@@ -31,7 +31,6 @@ export const LangMenu = ({lang}) => {
   const get_lang = value => {
     switch (value) {
       case 'en-US': return 'English'
-      case 'tr-TR': return 'Türkçe'
       case 'bg-BG': return 'Български'
     }
   }
@@ -60,7 +59,6 @@ export const LangMenu = ({lang}) => {
       {is_lang_menu ? (
         <ul ref={menu_ref}>
           <li onClick={select_lang('en-US')}>English</li>
-          <li onClick={select_lang('tr-TR')}>Türkçe</li>
           <li onClick={select_lang('bg-BG')}>Български</li>
         </ul>
       ) : null}
