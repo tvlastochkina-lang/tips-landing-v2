@@ -1,6 +1,6 @@
 {
   "header": {
-    "logo": "ForTip",
+    "logo": "FastTips",
     "menu": {
       "about": "About Service",
       "how_it_works": "How It Work",
@@ -112,7 +112,7 @@
       "questions": [
         {"id": 0, "title": "Why QR codes?", "text": "QR code can be printed on acard/sticker/table-tent or on abill. We help to make design or integrate to system for every client"},
         {"id": 1, "title": "What is the price?", "text": "QR code can be printed on acard/sticker/table-tent or on abill. We help to make design or integrate to system for every client"},
-        {"id": 2, "title": "What do i need to etart using ForTip? ", "text": "QR code can be printed on acard/sticker/table-tent or on abill. We help to make design or integrate to system for every client"},
+        {"id": 2, "title": "What do i need to etart using FastTips? ", "text": "QR code can be printed on acard/sticker/table-tent or on abill. We help to make design or integrate to system for every client"},
         {"id": 3, "title": "How long dose the onboarding process take?", "text": "QR code can be printed on acard/sticker/table-tent or on abill. We help to make design or integrate to system for every client"},
         {"id": 4, "title": "How will my employees know that they have received tip?", "text": "QR code can be printed on acard/sticker/table-tent or on abill. We help to make design or integrate to system for every client"},
         {"id": 5, "title": "How can i promote my virtual tip jar?", "text": "QR code can be printed on acard/sticker/table-tent or on abill. We help to make design or integrate to system for every client"}
@@ -126,9 +126,9 @@
     }
   },
   "footer": {
-    "title": "ForTip",
+    "title": "FastTips",
     "email": "admin@for-tip.com",
     "admin": "Administration personal account",
-    "copyright": "Copyright 2023 fortip"
+    "copyright": "Copyright 2023 FastTips"
   }
 }
